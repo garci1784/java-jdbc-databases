@@ -42,7 +42,7 @@ public class TotalOrderDao {
                 {
                     // result gets the value returned by the stored procedure as a BigDecimal obj
                     // column 1 is order_id
-                    result = resultSet.getBigDecimal("order_id");
+                    result = resultSet.getBigDecimal(1);
                 }
             }
         } catch (SQLException ex) {
